@@ -1,0 +1,52 @@
+header{text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+
+}
+
+
+div {
+    text-align: center;
+    font-size: 35px;
+    font-style: thin;
+    font-family: 'Alice', sans-serif;
+    letter-spacing: 2px;
+    color: #4c4c4c;
+    margin: 14px;
+}
+i {
+    border: 1px solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 14px;
+    animation-name: bounce;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation-name: bounce;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+.topline{
+    margin-top: 150px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 2.5rem;            /* Footer height */
+    padding: 20px;
+}
+.image{
+    float: right;
+    
+}
